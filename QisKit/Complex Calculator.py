@@ -1,3 +1,4 @@
+#Programming Drill 1.1.1 in Quantum Computing for Computer Scientists byYanofsky & Manucci
 def C_Adder(num1,num2): #Very simple adder for complex numbers takes two complex numbers in as strings and adds them together
     num1 = num1.split("+") #Currently does not work for negatives yet
     num2 = num2.split("+")
@@ -22,4 +23,3 @@ def C_Multiplier(num1,num2): #Complex number multiplier multiplies two complex n
     return result
 print(C_Adder("44 + 15i","7 + -24i"))
 print(C_Multiplier("2 + 3i","1 + 4i"))
-#####
